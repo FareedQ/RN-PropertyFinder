@@ -10,6 +10,7 @@ import {
   Text,
 } from 'react-native';
 
+
 class ListItem extends React.PureComponent {
   _onPress = () => {
     this.props.onPressItem(this.props.index);
